@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Task 1",
+      "setup": "npm install prompt",
+      "run": "node task-1/main.js",
+      "input": "",
+      "output": "3 3 2 12",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 2",
+      "setup": "npm install prompt",
+      "run": "node task-2/main.js",
+      "input": "",
+      "output": "6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 3",
+      "setup": "npm install prompt",
+      "run": "node task-3/main.js",
+      "input": "",
+      "output": "3 -7 7 -9 -4",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 4",
+      "setup": "npm install prompt",
+      "run": "node task-4/main.js",
+      "input": "",
+      "output": "11",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 5",
+      "setup": "npm install prompt",
+      "run": "node task-5/main.js",
+      "input": "",
+      "output": "411 1327",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 6",
+      "setup": "npm install prompt",
+      "run": "node task-6/main.js",
+      "input": "",
+      "output": "25",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
