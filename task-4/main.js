@@ -6,4 +6,14 @@ let matrix = [
     [0, 1, -3]
 ];
 
-// Write code here. 
+let n = 0
+for (let i = 0; i < matrix.length; i++) {
+    const element = matrix[i];
+    for (let j = 0; j < element.length; j++) {
+        const element2 = element[j];
+        if (element2>0) {
+            n = parseInt(n) + parseInt(element2)
+        }
+    }
+    
+}console.log(n);
